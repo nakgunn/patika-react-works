@@ -1,0 +1,50 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.list{
+    margin: 10px 0;
+}
+.list-item{
+    padding: 5px;
+    display: flex;
+    margin: 3px;
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 5px 0;
+}
+.start{
+    margin: 10px;
+    text-align: left;
+}
+.end{
+    text-align: end;
+    margin: 10px;
+}
+
+.center{
+    text-align: center;
+    margin: 10px;
+}
