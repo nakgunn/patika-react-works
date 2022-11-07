@@ -14,7 +14,11 @@ function Counter() {
 
     useEffect(() => {
         console.log('number state güncellendi.');
-    }, [number]);
+    }, [number]); // bu şekilde kullanırsak number state'i değiştiğinde componenti render eder.
+
+    useEffect(() => {
+      console.log('bir state güncellendi.');
+  }); // bu şekilde kullanırsak herhangi bir state değiştiğinde componenti render eder.
 
   return <div>
     <h1> {number} </h1>
